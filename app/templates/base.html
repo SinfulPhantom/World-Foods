@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - World Foods</title>
+      {% else %}
+      <title>Welcome to World Foods</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>World Foods: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

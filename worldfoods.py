@@ -1,4 +1,5 @@
 import random
+from app import app
 
 
 class WorldFoods:
@@ -65,6 +66,3 @@ class WorldFoods:
         for sequence in self.number_sequence:
             if sequence != 0:
                 print(self.world_list[sequence])
-
-if __name__ == "__main__":
-    WorldFoods()
