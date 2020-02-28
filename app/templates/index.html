@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, {{ user.username }}!</h1>
+    {% for post in posts %}
+    <div>
+        <h2>{{ post.recipe.label }}</h2>
+        <p>Labels: {{ post.recipe.healthLabels }}</p>
+        <img src="{{ post.recipe.image }}"</img>
+    </div>
+    <hr />
+    {% endfor %}
+{% endblock %}
