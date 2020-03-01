@@ -1,6 +1,6 @@
 name: Python World Foods
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   build:
