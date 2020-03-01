@@ -3,7 +3,7 @@ import json
 from flask import render_template
 from io import BytesIO
 import urllib
-from app import app
+from . import app
 
 @app.route('/')
 @app.route('/index')
