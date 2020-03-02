@@ -1,1 +1,1 @@
-FLASK_APP=worldfoods.py
+FLASK_APP=world-foods
